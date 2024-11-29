@@ -4,7 +4,7 @@ import s from "./Root.module.css"
 export const Root = () => {
   return (
     <div className={s.menu}>
-      <h2>WildernessWonders</h2>
+      <h2 className={s.title}>WildernessWonders</h2>
       <nav className={s.div}>
         <NavLink className={({ isActive, isPending, qwerty}) => isActive ? s.active : isPending ? s.loading : s.btn} to={'home'}>
           Г Л А В Н А Я
