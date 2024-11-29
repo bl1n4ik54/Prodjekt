@@ -1,0 +1,5 @@
+.active {
+	composes: btn;
+	font-weight: bold;
+	background-color: #000000;
+}
