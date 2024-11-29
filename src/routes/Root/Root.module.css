@@ -1,0 +1,22 @@
+.btn {
+	color: #6B6B6B;
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
+	transition: background-color .2s ease;
+}
+
+.btn:hover {
+	color: #000;
+}
+
+.active {
+	composes: btn;
+	font-weight: bold;
+	color: #000;
+}
+
+.menu{
+	background-color: #fff;
+	height: 1080px;
+	width: 320px;
+}
