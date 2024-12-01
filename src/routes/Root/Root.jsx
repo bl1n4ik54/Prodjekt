@@ -6,17 +6,17 @@ export const Root = () => {
     <div className={s.menu}>
       <h2 className={s.title}>WildernessWonders</h2>
       <nav className={s.div}>
-        <NavLink className={({ isActive, isPending, qwerty}) => isActive ? s.active : isPending ? s.loading : s.btn} to={'home'}>
-          Г Л А В Н А Я
+        <NavLink className={({ isActive, isPending}) => isActive ? s.active : isPending ? s.loading : s.btn} to={'home'}>
+          <div className={s.qwerty}> Г Л А В Н А Я</div>
         </NavLink>
-        <NavLink className={({ isActive, isPending, qwerty }) => isActive ? s.active : isPending ? s.loading : s.btn} to={'photo'}>
-          Ф О Т О
+        <NavLink className={({ isActive, isPending}) => isActive ? s.active : isPending ? s.loading : s.btn} to={'photo'}>
+          <div className={s.qwerty}>Ф О Т О</div> 
         </NavLink>
-        <NavLink className={({ isActive, isPending, qwerty }) => isActive ? s.active : isPending ? s.loading : s.btn} to={'review'}>
-          О Т З Ы В Ы
+        <NavLink className={({ isActive, isPending}) => isActive ? s.active : isPending ? s.loading : s.btn} to={'review'}>
+          <div className={s.qwerty}>О Т З Ы В Ы</div>
         </NavLink>
-        <NavLink className={({ isActive, isPending, qwerty }) => isActive ? s.active : isPending ? s.loading : s.btn} to={'contact'}>
-          К О Н Т А К Т Ы
+        <NavLink className={({ isActive, isPending}) => isActive ? s.active : isPending ? s.loading : s.btn} to={'contact'}>
+          <div className={s.qwerty}>К О Н Т А К Т Ы</div>
         </NavLink>
       </nav>
       <div>
