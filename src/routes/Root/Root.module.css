@@ -20,8 +20,9 @@
 
 .menu{
 	background-color: #fff;
+	min-width: 320px;
 	height: 1080px;
-	width: 320px;
+
 }
 
 .title{
@@ -34,4 +35,13 @@
 .qwerty{
 	height: 40px;
 
+}
+
+.asd{
+	
+}
+
+.central {
+	display: flex;
+	
 }

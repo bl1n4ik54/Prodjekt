@@ -5,4 +5,3 @@ export const ContactPage = () => {
     <h2>4</h2>
   )
 };
-
