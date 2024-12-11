@@ -8,12 +8,14 @@
     background-color: #D9D9D9;
     vertical-align: middle;
     text-align: center;
-    display: table-cell;
     border-radius: 30px;
     border: 0;
 	font-family: 'Inter', sans-serif;
     font-style: bold;
 	font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
