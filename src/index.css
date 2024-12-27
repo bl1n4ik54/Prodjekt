@@ -4,4 +4,11 @@
 
 body{
     margin: 0;
+    font-family: "Inter", serif;
+}
+
+*::after,
+*::before,
+* {
+    box-sizing: border-box;
 }

@@ -19,7 +19,6 @@
 	background-color: #fff;
 	min-width: 320px;
 	height: 1080px;
-
 }
 
 .title{
@@ -34,11 +33,7 @@
 
 }
 
-.asd{
-	
-}
-
-.central {
+.flex {
 	display: flex;
 	
 }

@@ -1,0 +1,70 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+}
+
+.otz {
+    width: 475px;
+    height: 225px;
+    resize: none;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(217, 217, 217, 1);
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 30px;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+}
+
+.btnAdd {
+    margin-left: 20px;
+    width: 126px;
+    height: 45px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.flexText {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexText span {
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.btnCount {
+    width: 50px;
+    height: 45px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.divBtn {
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+}

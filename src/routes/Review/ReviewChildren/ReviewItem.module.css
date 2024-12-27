@@ -1,0 +1,29 @@
+.container:not(:last-child) {
+    margin-right: 20px;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    width: 475px;
+    background-color: rgba(217, 217, 217, 1);
+    overflow-wrap: break-word;
+}
+
+.starDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: 400px;;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 11px;
+}

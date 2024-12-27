@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { Reviews } from "../components/Reviews/Reviews";
+import productSlice from "../routes/Product/productSlice"
+import contactSlice from "../routes/Contacts/contactsSlice"
 
 export default configureStore({
     reducer: {
-        reviews: reviewsSlice
+        product: productSlice,
+        cont: contactSlice
     }
 })
